@@ -18,6 +18,11 @@
 		C5C9694917617762005E651D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C9694817617762005E651D /* Default-568h@2x.png */; };
 		C5C9694C17617762005E651D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5C9694A17617762005E651D /* MainStoryboard.storyboard */; };
 		C5C9694F17617762005E651D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C9694E17617762005E651D /* ViewController.m */; };
+		C5C9695717617843005E651D /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C9695617617843005E651D /* Card.m */; };
+		C5C9695A17617855005E651D /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C9695917617855005E651D /* PlayingCard.m */; };
+		C5C9695D17617866005E651D /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C9695C17617866005E651D /* Deck.m */; };
+		C5C9696017617879005E651D /* PlayingDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C9695F17617879005E651D /* PlayingDeck.m */; };
+		C5C9696217618447005E651D /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C9696117618447005E651D /* back.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +42,15 @@
 		C5C9694B17617762005E651D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		C5C9694D17617762005E651D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C5C9694E17617762005E651D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C5C9695517617843005E651D /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		C5C9695617617843005E651D /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		C5C9695817617855005E651D /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		C5C9695917617855005E651D /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		C5C9695B17617866005E651D /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		C5C9695C17617866005E651D /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		C5C9695E17617879005E651D /* PlayingDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingDeck.h; sourceTree = "<group>"; };
+		C5C9695F17617879005E651D /* PlayingDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingDeck.m; sourceTree = "<group>"; };
+		C5C9696117618447005E651D /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +98,15 @@
 			isa = PBXGroup;
 			children = (
 				C5C9694A17617762005E651D /* MainStoryboard.storyboard */,
+				C5C9696117618447005E651D /* back.png */,
+				C5C9695517617843005E651D /* Card.h */,
+				C5C9695617617843005E651D /* Card.m */,
+				C5C9695817617855005E651D /* PlayingCard.h */,
+				C5C9695917617855005E651D /* PlayingCard.m */,
+				C5C9695B17617866005E651D /* Deck.h */,
+				C5C9695C17617866005E651D /* Deck.m */,
+				C5C9695E17617879005E651D /* PlayingDeck.h */,
+				C5C9695F17617879005E651D /* PlayingDeck.m */,
 				C5C9694D17617762005E651D /* ViewController.h */,
 				C5C9694E17617762005E651D /* ViewController.m */,
 				C5C9693917617762005E651D /* Supporting Files */,
@@ -163,6 +186,7 @@
 				C5C9694717617762005E651D /* Default@2x.png in Resources */,
 				C5C9694917617762005E651D /* Default-568h@2x.png in Resources */,
 				C5C9694C17617762005E651D /* MainStoryboard.storyboard in Resources */,
+				C5C9696217618447005E651D /* back.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +200,10 @@
 				C5C9693F17617762005E651D /* main.m in Sources */,
 				C5C9694317617762005E651D /* AppDelegate.m in Sources */,
 				C5C9694F17617762005E651D /* ViewController.m in Sources */,
+				C5C9695717617843005E651D /* Card.m in Sources */,
+				C5C9695A17617855005E651D /* PlayingCard.m in Sources */,
+				C5C9695D17617866005E651D /* Deck.m in Sources */,
+				C5C9696017617879005E651D /* PlayingDeck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
